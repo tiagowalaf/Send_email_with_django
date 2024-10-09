@@ -1,0 +1,12 @@
+Aqui temos um exemplo de como podemos enviar um token para o email que o usuário digitou.
+O usuário não será salvo na base de dados enquanto ele não digitar o código enviado no formulário do token.
+
+Essa é uma forma básica de validar um usuário, sua lógica deve ser implementada e validada
+os arquivos foram criados apenas como um exemplo para você ter idéias.
+
+# urlpatterns = [
+#    path('', home_create_user, name='cad_home'),
+#    path('create/user/', create_user, name='create_user'),
+#    path('show_template_token/', show_template_token, name='show_template_token'),
+#    path('validate_token_if_true/', validate_token_if_true, name='validate_token_if_true'),
+#]
